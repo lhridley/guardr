@@ -1,0 +1,20 @@
+.DS_Store
+Thumbs.db
+.idea/
+*~
+log/
+*.log
+*.rej
+*.orig
+
+# excluding directories managed by composer
+vendor/
+docroot/modules/contrib/
+docroot/themes/contrib/
+docroot/profiles/contrib/
+docroot/
+
+# excluding files managed by composer
+.editorconfig
+.gitattributes
+
